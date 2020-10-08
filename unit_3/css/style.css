@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  background: url(http://www.claimsmag.co.uk/wp-content/uploads/2017/02/Arc-Legal.jpg);
+  background-size: cover;
+  color: #ffffff;
+  font-family: helvetica;
+  font-size: 25px;
+}
+h2 {
+	font-size: 20px;
+}
+hr {
+	width: 1300px;
+}
+p {
+	font-size: 22px;
+}
+ul {
+	font-size: 18px;
+}
