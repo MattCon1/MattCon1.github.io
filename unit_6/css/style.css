@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body  {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.5em; /*1em = 16px*/
+  color: #222222;
+  line-height: 1.3;
+}
+header {
+  background-color: #55E7FA;
+  padding: 30px;
+  text-align: center;
+}
+h1 {
+  color: #ffffff;
+  font-family: 'Vampiro One', cursive;
+  font-size: 5em;
+  margin-right: 4em;
+  margin-left: 4em;
+  margin-bottom: 20px;
+  padding: 25px;
+  background-color: #F2C222;
+}
+nav{
+  text-align: center;
+}
+
+/*LoVe HAte*/
+
+nav a:link {
+  /*color: #DE6F6A;*/
+  color: #FCFA12;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 3px;
+  margin: 0 32px;
+}
+nav a:visited {
+  color: #FCFA12;
+}
+nav a:hover {
+  color: #dd0000;
+  border-bottom: 1px solid #dd0000
+}
+nav a:active {
+  color: #fff 
+}
+h2 {
+  color: #fff;
+  background-color: #55E7FA;
+  padding: 1em;
+  text-align: center;
+  border: 10px gray solid;
+  border-style: double;
+}
+main {
+  padding: 30px;
+}
+ol {
+  padding: 30px;
+}
+h2 {
+  margin: 20px 0;
+  font-family: 'Nunito', sans-serif;
+}
+blockquote {
+  margin: 15px 0;
+  }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#three {
+  background-color: #FFB7CF;
+  border: 1px black solid;
+  padding: 20px;
+}
+/*aside {
+  /*margin-top: 1px;
+  padding: 8px;
+  width: 49%;*/
+}
+.left {
+  background-color: #E582A2;
+  border: 1px black solid;
+  padding: 20px;
+  float: left;
+  width: 30%;
+}
+.right {
+  background-color: #E55B88;
+  border: 1px black solid;
+  padding: 20px;
+  float: right;
+  width: 62%;
+}
+h3 {
+  font-family: 'Nunito', sans-serif;
+  padding-top: 35px;
+  margin: 40px;
+  text-align: center;
+  border-bottom: solid;
+}
+p {
+  line-height: 1.5em;
+  font-family: 'Nunito', sans-serif;
+}
+img { 
+  width: 90%;
+  /*align-content: center;*/ 
+  display: block;
+  margin: 40px;
+}
+footer {
+  background-color: #cccccc;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid black;
+  clear: both;
+}
+a {
+  /*color: #DE6F6A;*/
+  color: #FCFA12;
+  text-decoration: none;
+  padding: 25px;
+  font-weight: bold;
+  }
+#wrapper {
+  width: 1700px;
+  margin: 0 auto;
+  background-color: #cccccc;
+}
