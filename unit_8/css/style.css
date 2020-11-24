@@ -8,33 +8,30 @@
 }
 body  {
   font-family: helvetica, arial, sans-serif;
-  font-size: 1.5em; /*1em = 16px*/
+  font-size: 1.5em;
   color: #222222;
   line-height: 1.3;
 }
 header {
   background-color: #55E7FA;
   padding: 30px;
-  text-align: center;
 }
 h1 {
-  color: #ffffff;
+  color: #fff;
+  background: url(https://wallup.net/wp-content/uploads/2016/01/71623-space-planet-nebula.jpg);
   font-family: 'Vampiro One', cursive;
   font-size: 5em;
-  margin-right: 4em;
-  margin-left: 4em;
-  margin-bottom: 20px;
-  padding: 25px;
-  background-color: #F2C222;
-}
-nav{
   text-align: center;
+  padding: 15px;
+}
+nav {
+  text-align: center;
+  padding: 25px 0px 0px;
 }
 
 /*LoVe HAte*/
 
 nav a:link {
-  /*color: #DE6F6A;*/
   color: #FCFA12;
   font-style: italic;
   font-weight: bold;
@@ -48,7 +45,7 @@ nav a:visited {
 }
 nav a:hover {
   color: #dd0000;
-  border-bottom: 1px solid #dd0000
+  border-bottom: 1px solid #dd0000;
 }
 nav a:active {
   color: #fff 
@@ -82,29 +79,20 @@ blockquote {
     clear: both;
     height: 0;
 }
-/*#three {
-  background-color: #FFB7CF;
-  border: 1px black solid;
-  padding: 20px;
-}*/
 aside {
   margin-top: 1px;
   padding: 8px;
-  width: 49%;
+  width: 75%;
 }
 .left {
-  /*background-color: #E582A2;*/
-  border: 1px black solid;
-  padding: 20px;
+  padding: 10px;
   float: left;
-  width: 30%;
+  width: 48%;
 }
 .right {
-  /*background-color: #E55B88;*/
-  border: 1px black solid;
-  padding: 20px;
+  padding: 10px;
   float: right;
-  width: 62%;
+  width: 48%;
 }
 h3 {
   font-family: 'Nunito', sans-serif;
@@ -119,7 +107,6 @@ p {
 }
 img { 
   width: 90%;
-  /*align-content: center;*/ 
   display: block;
   margin: 40px;
 }
@@ -131,14 +118,16 @@ footer {
   clear: both;
 }
 a {
-  /*color: #DE6F6A;*/
-  color: #FCFA12;
+  color: #DE6F6A;
   text-decoration: none;
   padding: 25px;
   font-weight: bold;
-  }
+}
+a:hover {
+  color: #FCFA12; 
+}
 #wrapper {
-  width: 1700px;
+  width: 85%;
   margin: 0 auto;
   background-color: #cccccc;
 }

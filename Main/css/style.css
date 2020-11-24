@@ -34,7 +34,6 @@ nav{
 /*LoVe HAte*/
 
 nav a:link {
-  /*color: #DE6F6A;*/
   color: #FCFA12;
   font-style: italic;
   font-weight: bold;
@@ -48,7 +47,7 @@ nav a:visited {
 }
 nav a:hover {
   color: #dd0000;
-  border-bottom: 1px solid #dd0000
+  border-bottom: 1px solid #dd0000;
 }
 nav a:active {
   color: #fff 
@@ -90,21 +89,19 @@ blockquote {
 aside {
   margin-top: 1px;
   padding: 8px;
-  width: 49%;
+  width: 75%;
 }
 .left {
-  /*background-color: #E582A2;*/
-  border: 1px black solid;
-  padding: 20px;
+  padding: 10px;
   float: left;
-  width: 30%;
+  width: 48%;
+  /*background-color: #FFB7CF*/
 }
 .right {
-  /*background-color: #E55B88;*/
-  border: 1px black solid;
-  padding: 20px;
+  padding: 10px;
   float: right;
-  width: 62%;
+  width: 48%;
+  /*background-color: #FFB7CF*/
 }
 h3 {
   font-family: 'Nunito', sans-serif;
@@ -131,14 +128,16 @@ footer {
   clear: both;
 }
 a {
-  /*color: #DE6F6A;*/
-  color: #FCFA12;
+  color: #DE6F6A;
   text-decoration: none;
   padding: 25px;
   font-weight: bold;
-  }
+}
+a:hover {
+  color: #FCFA12; 
+}
 #wrapper {
-  width: 1700px;
+  width: 100%;
   margin: 0 auto;
   background-color: #cccccc;
 }
